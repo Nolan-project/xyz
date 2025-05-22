@@ -3,7 +3,12 @@
 <head></head>
 <body>
   <div id='xaxis' class='line'></div>
-<script></script>
+<script>
+  const xaxis=document.getElementById('xaxis');
+body.addEventListener("click", (event) => {
+  xaxis.setAttribute('width','500px');
+});
+</script>
 <style>
   #xaxis {
     width:400px;
