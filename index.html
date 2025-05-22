@@ -3,15 +3,20 @@
 <head></head>
 <body>
   <div id='xaxis' class='line'></div>
+  <div id='yaxis' class='line'></div>
 <script>
   const xaxis=document.getElementById('xaxis');
 
-  xaxis.style.width = 600px;
+  xaxis.style.width = '600px';
 </script>
 <style>
   #xaxis {
     width:400px;
     height:1px;
+  }
+  #yaxis {
+    width:1px;
+    height:400px;
   }
   .line {
     background-color:black;
