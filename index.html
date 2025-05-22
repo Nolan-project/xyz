@@ -6,7 +6,7 @@
 <script>
   const xaxis=document.getElementById('xaxis');
 body.addEventListener("click", (event) => {
-  xaxis.setAttribute('width','500px');
+  xaxis.setAttribute('class','noline');
 });
 </script>
 <style>
@@ -16,6 +16,9 @@ body.addEventListener("click", (event) => {
   }
   .line {
     background-color:black;
+  }
+  .noline {
+    background-color:grey;
   }
 </style>
 </body>
